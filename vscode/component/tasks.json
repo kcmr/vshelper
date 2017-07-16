@@ -1,0 +1,32 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "taskName": "gh:publish",
+      "command": "yo polymer:gh",
+      "type": "shell"
+    }, {
+      "taskName": "install variants",
+      "command": "polymer install --variants",
+      "type": "shell"
+    }, {
+      "taskName": "serve variants",
+      "command": "polymer install --variants && polymer serve",
+      "type": "shell"
+    }, {
+      "taskName": "test variants",
+      "command": "polymer install --variants && polymer test",
+      "type": "shell"
+    }, {
+      "taskName": "polymer serve",
+      "command": "polymer serve",
+      "type": "shell"
+    }, {
+      "taskName": "polymer test",
+      "command": "polymer test",
+      "type": "shell"
+    }
+  ]
+}
