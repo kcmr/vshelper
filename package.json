@@ -1,5 +1,5 @@
 {
-  "name": "vshelper",
+  "name": "vsproject",
   "version": "1.0.0",
   "description": "Adds settings and tasks files for VS Code",
   "main": "index.js",
@@ -12,7 +12,9 @@
   "keywords": [
     "vscode",
     "CLI",
-    "editor"
+    "editor",
+    "Visual Studio Code",
+    "polymer"
   ],
   "author": "Kus Cámara <kus.camara@gmail.com>",
   "license": "MIT",
