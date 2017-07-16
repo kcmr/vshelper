@@ -11,7 +11,7 @@ let type = argv.type || 'component';
 const getFile = (file) => {
   const homedir = os.homedir();
   return fs.existsSync(`${homedir}/.vscode/vsproject/${type}/${file}.json`)
-    ? path.resolve(`${homedir}/.vscode/vsproject/${type}/${file}.json`)
+    ? `${homedir}/.vscode/vsproject/${type}/${file}.json`
     : path.resolve(__dirname, `vscode/${type}/${file}.json`);
 };
 
