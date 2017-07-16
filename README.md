@@ -12,7 +12,7 @@ The default settings and tasks are meant for Web Components and apps using Polym
 
 ## Install
 
-    npm install -g git+https://github.com/kcmr/vshelper.git
+    npm install -g vsproject
 
 ## Usage
 
@@ -34,16 +34,14 @@ The following tasks.json template will be used for "dummy" projects:
 
 In `~/.vscode/vsproject/dummy/tasks.json`:
 
-```json
-{
-  // my own tasks for dummy projects
-}
-```
+    {
+      // my own tasks for dummy projects
+    }
 
-```bash 
-$ cd my-dummy-project
-$ vsproject --type dummy
-```
+In your project directory:
+
+    $ vsproject --type dummy
+
 
 ## Running tasks in VSCode
 
