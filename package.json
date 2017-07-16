@@ -1,6 +1,6 @@
 {
   "name": "vsproject",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds settings and tasks files for VS Code",
   "main": "index.js",
   "scripts": {
