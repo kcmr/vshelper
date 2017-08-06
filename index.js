@@ -16,7 +16,7 @@ const getFile = (file) => {
 
   if (fs.existsSync(`${homedir}/.vscode/vsproject/${type}/${file}.json`)) {
     settingsFile = `${homedir}/.vscode/vsproject/${type}/${file}.json`;
-  } else if (defaultTypes.indexOf(type) > 0) {
+  } else if (defaultTypes.indexOf(type) > -1) {
     settingsFile = path.resolve(__dirname, `vscode/${type}/${file}.json`);
   } else {
     return console.log(`${file}.json not found in ~/.vscode/${type}/`);
